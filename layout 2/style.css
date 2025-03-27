@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+* {
+
+
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter";
+
+
+}
+
+.cabecalho {
+
+    width: 100vw;
+    height: 71px;
+    background-color: #3750B3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.cabecalho p {
+
+    color: white;
+    margin-right: 20px;
+
+}
+
+.right {
+
+display: flex;
+margin-right: 10vw;
+
+}
+
+.left {
+
+margin-left: 10vw; /*clocaum margem na esquerda*/
+
+
+}
+
+
+.caixa-da-image {
+
+    width: 100vw;
+    height: 779px;
+    display: flex;            /* Enables Flexbox */
+    justify-content: center;  /* Centers images horizontally */
+    align-items: center;      /* Aligns them vertically */
+    gap: 40px;                /* Adds space between images */
+    padding: 20px;            /* Adds some space around */
+}
+
+.caixa-da-image img {
+    width: 40vw;  /* Adjust the width */
+    height: auto;  /* Keeps the aspect ratio */
+    border-radius: 10px;  /* Optional rounded corners */
+}
+
+
+
+
+
+.textos {
+
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.textos p { 
+
+    font-size: 32px;
+}
